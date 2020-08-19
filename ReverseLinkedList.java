@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class ReverseLinkedList {
 	
 	public static void main(String[] args){
@@ -31,10 +33,6 @@ public class ReverseLinkedList {
 		
 		return r(cur, prev);
 	}
-
-
-
-
 
 	public void print(Node n) {
 		Node head = n;
